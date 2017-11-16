@@ -6,7 +6,7 @@
 	
 }
 
-p{
+/*p{
 	z-index: 10000;
 	font-size: 100px;
 	text-align: center;
@@ -15,12 +15,13 @@ p{
 	padding-top: 100px;
 	color: white;
 	font-family: 'Lato';
-}
+}*/
+
 
 .slider{
 	overflow: hidden;
-	height: 200px; /*Changes the size of the Slider Pictures*/
-	margin-bottom: 45px;
+	height: 350px; /*Changes the size of the Slider Pictures*/
+	margin-bottom: 2%;
 }
 
 .slider figure div{

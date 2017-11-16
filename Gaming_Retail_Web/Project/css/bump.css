@@ -1,13 +1,8 @@
 .bump0{
 
-color:blue;
-background-color: black;
 clear:both;
-align:middle;
-padding: 0px;
-border: 3px solid white;
+/*margin-top: 220px;*/
 text-align:center;
-width: 100%;
 border-radius: 13px 13px 13px 13px;		
 }
 
@@ -20,24 +15,30 @@ border-radius: 15px 15px 15px 15px;
 
 .bump1{
 
-color:blue;
-background-color:red;
 clear:both;
-align:middle;
-padding: 30px;
-border: 3px solid green;
-text-align:center;
+padding;
+text-align:center
 	
+}
+
+.bump1 img{
+
+width: 100%;
+heigh: 100%;
+border-radius: 15px 15px 15px 15px;	
 }
 
 .bump2{
 
-color:blue;
-background-color:red;
 clear:both;
-align:middle;
-padding: 30px;
-border: 3px solid green;
+padding;
 text-align:center;
 	
+}
+
+.bump2 img{
+
+width: 100%;
+heigh: 100%;
+border-radius: 15px 15px 15px 15px;	
 }
