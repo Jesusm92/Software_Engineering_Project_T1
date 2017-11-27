@@ -25,3 +25,5 @@ Nevertheless, let's try to meet the following week for address the final steps. 
 
 Have a nice weekend!!!
 
+Adding to this file: I have uploaded page_adventure and page_shooter as well as their css, images, and java script files.  All of the links on these pages work if I had a correct target for the link, if not I defaulted to a link to the index page until the correct one is made available.  The pages: page_contactus.html and page_racing.html did no go to the correct pages.  If you click on those pages in the project, they do not bring up the correct pages, so it isn't the links that are incorrect. Also the paypal buttons work and link to a paypal account I made for Galaxy Games.  The html for those is found on either page_adventure or page_shooter. The social media links work, but they just go to the default social media site location as we do not have social media accounts set up specifically for the project.  I hope everyone had a happy Thanksgiving and a great weekend, I feel accomplished and look forward to discussing the project this week.    
+
