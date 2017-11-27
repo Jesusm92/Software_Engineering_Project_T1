@@ -1,0 +1,198 @@
+#body_racing{
+	
+	background-image: url(../img/background/backg_racing2.png);
+	background-position: center; 
+	
+}
+#body_others{
+	
+	background-image: url(../img/background/backg_others0.png);
+	background-position: center;
+}	
+	
+
+
+.navbar_2{
+	padding: 10px;
+	/*background: #1486D0; /* For browsers that do not support gradients */
+	/*background: -webkit-linear-gradient(left, red , yellow); /* For Safari 5.1 to 6.0 */
+	/*background: -o-linear-gradient(bottom right, red, yellow); /* For Opera 11.1 to 12.0 */
+	/*background: -moz-linear-gradient(bottom right, red, yellow); /* For Firefox 3.6 to 15 */
+	/*background: linear-gradient(to bottom right, blue , purple); /* Standard syntax */
+	background: linear-gradient(#0067D8,#033F81); /* Standard syntax */
+	margin-bottom:5%;
+}
+.outer{
+	background-color:#171619;
+	border-style:double;
+	padding:4px;	
+}
+#video{
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+	margin: 15px;
+}
+#video iframe, .video-container object, .video-container embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+.wrap_left{
+	background-color;
+	width:50%;
+	height:50%;
+	/*border: 2px solid red;*/
+	float:left;	
+}
+.wrap_left img{
+	margin: 10px 10px;
+	width:60%;
+	height:80%;
+	border: 2px solid blue;	
+}
+.wrap_left p{
+	color: red;	
+}
+.wrap_right{
+	width: 49%;
+	background-color;
+	margin:5px;
+	/*border: 2px solid green;*/
+	float: right;	
+}
+#game_text{
+	float:left;
+	width:50%;
+	/*background-color:white;*/
+}
+#game_text p{
+	color:#E0DBED;  
+	font-size:1.1em;
+	margin:5px;
+	line-height: 200%;	
+}
+#game_img{
+	text-align:center;
+	float:right;
+	/*clear:both;*/
+	width:50%;	
+}
+#game_img img{
+	margin:10px;
+	width:90%;
+}
+#clear{
+	clear:both;
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button:hover{
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+	background-color: #9C0EB7;
+	
+}
+.button_resume {
+    background-color:#76108A; /* Purple */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button_3 {
+    background-color:#76108A; /* Purple */
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: .9em;
+    margin: 2px 1px;
+    cursor: pointer;
+	border-radius: 5px 5px 5px 5px;
+}
+.button_3 {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.button_3:hover {
+    background-color: #16E5F3; /* Green */
+    color: white;
+}
+#title{
+	font-size:1.8em;
+	color:white;
+	padding-left:10px;
+}
+#on_sale_advertise{
+	text-align:center;
+	background-color:rgba(150, 28, 170, 0.7);
+	border-style:double;
+	padding:4px;
+	margin:10px;
+}
+#on_sale_advertise p{
+	font-size:2.0em;
+	color:white;
+}
+.on_sale_non_index{
+	padding:5px;
+	margin: 10px;
+	border: 1.5px double black;
+	background-color:#171619;
+	clear: both;
+}
+
+.on_sale_non_index img{
+	margin:10px;
+	heigh: 80%;
+	width: 80%;/*it's working somewhat good, I have to fix the rest of the games and the page above*/
+	max-width: 250px; 
+    max-height: 400px;
+	border: 2px solid purple;
+}
+.on_sale_non_index img:hover{
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+	-webkit-filter: brightness(140%);
+	border: 2px solid #14EAE1;
+}
+#discount{
+	background-color:green;
+	font-size:1.2em;
+	padding:2px;
+}
+#text_area{
+	padding:2px;
+	margin:3px;
+	background-color;	
+}
+#fieldset{
+	color:purple;
+	padding:2px;
+	margin:8px;	
+}
+
+
+

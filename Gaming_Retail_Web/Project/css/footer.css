@@ -1,8 +1,10 @@
 .social{
 	text-align:center;
+	
 	padding:5px;
 	font-size;
 	color:purple;
+	margin-top:10px;
 	background: linear-gradient(#B5A6B8, #FFFFFF); /* Standard syntax */
 	clear:both;
 }
@@ -10,7 +12,22 @@
 	width:35px;
 	height:40px;
 	padding-top:10px;
+	cursor: pointer;
 }
+.social img:hover{
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+   
+   -webkit-filter: brightness(170%);
+}
+/*.social:hover{
+	
+	background-color: #16E5F3;
+    color: white;
+	
+}*/
+
+
 .footer{
 	padding: 6px 10px 3px 10px;
 	background-color:#76108A;
@@ -19,6 +36,7 @@
 .footer a{
 	padding: 6px 10px 3px 10px;
 	color: white;
+	underline:none;
 }
 #rights{
 	
