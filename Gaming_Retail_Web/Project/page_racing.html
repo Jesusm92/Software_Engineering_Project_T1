@@ -7,17 +7,16 @@
 		<meta author = "author" content = "Jesus,Ibrahima,Leland">
 		<title>Game Galaxy</title>
 		
-		<link rel="stylesheet" href="css/site.css">
-		<link rel="stylesheet" href="css/slider.css">
-		<link rel="stylesheet" href="css/bump.css">
-		<link rel="stylesheet" href="css/footer.css">
-		<link rel="stylesheet" href="css/page_others.css"> 	<!-- My .css to get marging from the navbar, the original does not have marging-->
+		<link rel="stylesheet" href="css/site.css"> 				<!-- Needed for general page styling-->
+		<link rel="stylesheet" href="css/bump.css"> 				<!-- Needed for general every single page that uses a bump picture-->
+		<link rel="stylesheet" href="css/footer.css"> 				<!-- Needed for everypage that uses footer-->
+		<link rel="stylesheet" href="css/non_index_styling.css"> 	<!-- Needed for navbar margin and color in genre pages, and genre block styling-->
 		<script type="text/javascript" src="js/scripts.js"></script>
 	</head>
 
 	
 	<!-- Body of the page starts here-->
-	<body id="body">
+	<body id="body_racing">
 	
 	<div class = "container">
 	<!-- Top of the page that use the logo-->
@@ -31,56 +30,54 @@
 			<nav>
 				<ul class="cf">
 					<li><a class="dropdown" href="index.html">Home</a>
-						<ul>
-							<li><a href="#">Option1</a></li>
-						</ul>
+						
 					</li>
 					
 					<li><a class="dropdown" href="#">Genre</a>
 						<ul>
-							<li><a href="#">Adventure</a></li>
-							<li><a href="#">Shooter</a></li>
-							<li><a href="#">Sports</a></li>
-							<li><a href="#">RPG</a></li>
+							<li><a href="page_adventure.html">Adventure</a></li>
+							<li><a href="page_shooter.html">Shooter</a></li>
+							<li><a href="page_sports.html">Sports</a></li>
+							<li><a href="page_rpg.html">RPG</a></li>
 							<li><a href="page_others.html">Other</a></li>
+							
 						</ul>
 					</li>
 					
 					<li><a class="dropdown" href="#">Games</a>
 						<ul>
-							<li><a href="#">Featured Games</a></li>
-							<li><a href="#">Best Bellers</a></li>
-							<li><a href="#">On Sale</a></li>
+							<li><a href="page_featured_games.html">Featured Games</a></li>
+							<li><a href="page_best_sellers.html">Best Bellers</a></li>
+							<li><a href="page_on_sale.html">On Sale</a></li>
 						</ul>
 					</li>
 					
 						<li><a class="dropdown" href="#">News</a>
 							<ul>
-								<li><a href="#">Nintendo Switch</a></li>
-								<li><a href="#">Xbox One</a></li>
-								<li><a href="#">PlayStation</a></li>
-								<li><a href="#">PC</a></li>
+								<li><a href="page_news.html">Nintendo Switch</a></li>
+								<li><a href="page_news.html">Xbox One</a></li>
+								<li><a href="page_news.html">PlayStation</a></li>
+								<li><a href="page_news.html">PC</a></li>
 							</ul>
 						</li>
 					
 						<li><a class="dropdown" href="#">About Us</a>
 							<ul>
-								<li><a href="#">Get to know us</a></li>
-								<li><a href="#">Game Galaxy Project</a></li>
+								<li><a href="page_aboutus.html">Get to know us</a></li>
+								<li><a href="page_aboutus.html">Game Galaxy Project</a></li>
 							</ul>
 						</li>
 						
 						<li><a class="dropdown" href="#">Contact us</a>
 							<ul>
 								<li><a href="#">Support</a></li>
-								<li><a href="#">Social Media</a></li>
+								
 							</ul>
 						</li>
 				
 			</ul>
         </nav>
     </div>
-		<!-- Slider of the top-->
 		
 		
 	<!-- Frame of the main body starts here. -->	
@@ -90,95 +87,190 @@
 					
 			
 		
-		<!-- Partition of hot deals -->
+		
 	
 
 		
 		<!-- First banner that divides blocks. -->
-		<div class = "bump0">
+		<div class = "bump_racing">
 			
-			<img src="img/bump/bump0s.png">
+			<img src="img/bump/bump_racing1.jpg">
 			
 		</div>
+	
 		
 		<!-- Feature games block-->
-		<div class = "feat_games">
 		
-			<table>
+		<!-- Racing Game 1-->	
+			<div class = "outer">
+				<p id="title">Need For Speed: Payback</p>
+					<div class = "wrap_left">
+					
+						<div id = "video">
+							<iframe  src="https://www.youtube.com/embed/K-5EdHZ0hBs" frameborder="0" gesture="media" allowfullscreen></iframe>
+						</div>
+							<p>Need for Speed Payback is a racing video game developed by Ghost Games and published by Electronic Arts for Microsoft Windows, PlayStation 4 and Xbox One.
+							It is the twenty-third installment in the Need for Speed series. The game was revealed with a trailer released on June 2, 2017.
+							The game was released worldwide on November 10, 2017</p>			
+					</div>
+				
+				<div class = "wrap_right"> <!-- Right block-->
+					<div id = "game_text">
+						<p>Price:<span style=font-size:1.6em;">$59.00</span><br/>Category: Racing<br/>Developer: Ghost Games</br>Publisher: EA<br/>Release Date: Nov 10, 2017<br/>Platform: Xbox one, PS4, PS4pro, Xbox one X, PC</p>
+					</div>
+					<div id = "game_img">
+						<img src="img/games/game_racing0.png">
+						<div id = "clear"></div>
+						<button class="button">Add to cart</button>
+						<button class="button">Buy now</button>
+					</div>
 			
-				<tr>
-					<th><a href="feat_games.html"><img src = "img/games/game_adventure0.png" alt = "FEATURED_GAMES"</a></th>
-					<th><a href="feat_games.html"><img src = "img/games/game_rpg02.jpg" alt = "FEATURED_GAMES"</a></th>
-					<th><a href="feat_games.html"><img src = "img/games/game_shooter0.jpg" alt = "FEATURED_GAMES"</a></th>
-					<th><a href="feat_games.html"><img src = "img/games/game_adventure04.png" alt = "FEATURED_GAMES"</a></th>
-					
-					
-					
-				</tr>
-				<tr>
-					<th><a href="feat_games.html"><img src = "img/games/game_rpg0.png" alt = "FEATURED_GAMES"</a></th>
-					<th><a href="feat_games.html"><img src = "img/games/game_racing01.png" alt = "FEATURED_GAMES"</a></th>
-					<th><a href="feat_games.html"><img src = "img/games/game_racing0.png" alt = "FEATURED_GAMES"</a></th>
-					<th><a href="feat_games.html"><img src = "img/games/game_adventure01.jpg" alt = "FEATURED_GAMES"</a></th>
-				</tr>
-				<tr>
-					<th><a href="feat_games.html"><img src = "img/games/game_other02.png" alt = "FEATURED_GAMES"</a></th>
-					<th><a href="feat_games.html"><img src = "img/games/game_sports0.jpg" alt = "FEATURED_GAMES"</a></th>
-					<th><a href="feat_games.html"><img src = "img/games/game_racing03.png" alt = "FEATURED_GAMES"</a></th>
-					<th><a href="feat_games.html"><img src = "img/games/game_shooter02.jpg" alt = "FEATURED_GAMES"</a></th>
-					
-				</tr>
-			</table>
-			<table>
-			<tr>
-				<th><a href="best_sellers.html"><img src = "img/games/game_shooter02.jpg" alt = "BEST_SELLERS"</a></th>
-				<th><a href="best_sellers.html"><img src = "img/games/game_shooter03.png" alt = "BEST_SELLERS"</a></th>
-				<th><a href="best_sellers.html"><img src = "img/games/game_shooter0.jpg" alt = "BEST_SELLERS"</a></th>
-				<th><a href="best_sellers.html"><img src = "img/games/game_shooter01.jpg" alt = "BEST_SELLERS"</a></th>
-			</tr>
-			<tr>
-				<th><a href="best_sellers.html"><img src = "img/games/game_racing02.jpg" alt = "BEST_SELLERS"</a></th>
-				<th><a href="best_sellers.html"><img src = "img/games/game_sports0.jpg" alt = "BEST_SELLERS"</a></th>
-				<th><a href="best_sellers.html"><img src = "img/games/game_other02.png" alt = "BEST_SELLERS"</a></th>
-				<th><a href="best_sellers.html"><img src = "img/games/game_adventure04.png" alt = "BEST_SELLERS"</a></th>
-			</tr>
-			<tr>
-				<th><a href="best_sellers.html"><img src = "img/games/game_adventure01.jpg" alt = "BEST_SELLERS"</a></th>
-				<th><a href="best_sellers.html"><img src = "img/games/game_racing0.png" alt = "BEST_SELLERS"</a></th>
-				<th><a href="best_sellers.html"><img src = "img/games/game_racing03.png" alt = "BEST_SELLERS"</a></th>
-				<th><a href="best_sellers.html"><img src = "img/games/game_adventure02.png" alt = "BEST_SELLERS"</a></th>
-			</tr>
-			</table>
+				
+				</div>
+				
+				<div id = "clear"></div>
+				
+				
+			</div>
+			
+			
+			<!-- Racing Game 2-->
+			<div class = "outer">
+			
+			<p id="title">Forza Horizon 3</p>
+			
+				<div class = "wrap_left">
+				
+					<div id = "video">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/vD1ccSM9qiA" frameborder="0" gesture="media" allowfullscreen></iframe>
+					</div>
+					<p>Forza Horizon 3 is an open world racing video game developed by Playground Games and published by Microsoft Studios for Xbox One and Microsoft Windows 10. The game features cross-platform play between the two platforms</p>
+				</div>
+				
+				<div class = "wrap_right"> <!-- Right block-->
+					<div id = "game_text">
+						<p>Price: <span style="background-color:green;font-size:1.1em;">
+						20%off </span>
+						<span style="text-decoration: line-through;font-size:1.6em;color:grey"> $59.00</span>
+						<span style="font-size:1.6em;"> $48.00</span>
+						<br/>Category: Racing<br/>Developer: Playground Games<br/>
+						Publisher: Microsoft<br/>
+						Release Date: Sep 27, 2016<br/>
+						Platform: Xbox one, PC
+						</p>
+					</div>
+					<div id = "game_img">
+						<img src="img/games/game_racing01.png">
+						<button class="button">Add to cart</button>
+						<button class="button">Buy now</button>
+					</div>
+			
+				
+				</div>
+				
+				<div id = "clear">
+				</div>
+				
+			</div>
+			
+			
+			<!-- Racing Game 3-->
+			<div class = "outer">
+			
+			<p id="title">Project Cars 2: Collector's Edition</p>
+				
+				<div class = "wrap_left">
+				
+					<div id = "video">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/0YrrK92fQmk" frameborder="0" gesture="media" allowfullscreen></iframe>
+					</div>
+						<p>Project CARS 2 is a motorsport racing simulator video game developed by Slightly Mad Studios and published and distributed by Bandai Namco Entertainment.</p>
+				</div>
+				
+				<div class = "wrap_right"> <!-- Right block-->
+					<div id = "game_text">
+						<p>Price:<span style=font-size:1.6em;">$59.00</span><br/>Category: Racing<br/>Developer: Slightly Mad Studios<br/>Publisher: Bandai Namco Entertainment<br/>Release Date: Sep 22, 2017<br/>Platform: PS4, Xbox one, PC</p>
+					</div>
+					<div id = "game_img">
+						<img src="img/games/game_racing02.jpg">
+						<button class="button">Add to cart</button>
+						<button class="button">Buy now</button>
+					</div>
+			
+				
+				</div>
+				
+				<div id = "clear">
+				</div>
+				
+			<!-- Racing Game 4-->	
+			</div>
+			
+			
+			
+			<div class = "outer">
+			
+			<p id="title">Gran Turismo Sport</p>
+			
+				<div class = "wrap_left">
+				
+					<div id = "video">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/0siGVASN9PQ" frameborder="0" gesture="media" allowfullscreen></iframe>
+					</div>
+					<p>Gran Turismo Sport is a racing video game developed by Polyphony Digital and published by Sony Interactive Entertainment for PlayStation 4.</p>		
+				</div>
+				
+				<div class = "wrap_right"> <!-- Right block-->
+					<div id = "game_text">
+						<p>Price:<span style=font-size:1.6em;">$59.00</span><br/>Category: Racing<br/>Developer: Polyphony Digital<br/>Publisher: Sony Interactive Entertainment<br/>Release Date: Nov 10, 2017<br/>Platform: PS4, PS4pro, Playstation VR</p>
+					</div>
+					<div id = "game_img">
+						<img src="img/games/game_racing03.png">
+						<button class="button">Add to cart</button>
+						<button class="button">Buy now</button>
+					</div>
+			
+				
+				</div>
+				
+				<div id = "clear">
+				</div>
+				
+			</div>
+			
+			
+
+			
+		</body>
+		
+			<div id = "on_sale_advertise">
+			
+				<p>Check out our games on sale!</p>
+				
+			</div>
+		
+		<div class = "on_sale_non_index">
+		<table>
 			<tr>
 				<th><a href="on_sale.html"><img src = "img/games/game_other01.png" alt = "ON_SALE"</a></th>
 				<th><a href="on_sale.html"><img src = "img/games/game_rpg01.png" alt = "ON_SALE"</a></th>
 				<th><a href="on_sale.html"><img src = "img/games/game_other0.png" alt = "ON_SALE"</a></th>
 				<th><a href="on_sale.html"><img src = "img/games/game_sports01.jpg" alt = "ON_SALE"</a></th>
-			</tr>
-			<tr>
 				<th><a href="on_sale.html"><img src = "img/games/game_other02.jpg" alt = "ON_SALE"</a></th>
 				<th><a href="on_sale.html"><img src = "img/games/game_rpg0.png" alt = "ON_SALE"</a></th>
 				<th><a href="on_sale.html"><img src = "img/games/game_sports03.png" alt = "ON_SALE"</a></th>
-				<th><a href="on_sale.html"><img src = "img/games/game_sports02.jpg" alt = "ON_SALE"</a></th>
 			</tr>
+		</table>
 		</div>
-
-			
 		
-		<!-- Third banner that divides blocks -->
-		
-		
-		<!-- ON SALE block-->
-		
-	
-		</body>
+		<div id = "clear">
 		
 		<!-- Footer block starts here-->
 		<footer>
 		
 				<div class = "social">
 			
-					<h4>Follow us!</h4>
+					<h3>Follow us!</h3>
 					<image src = "img/social/ico00.png" alt = "social0">
 					<image src = "img/social/ico01.png" alt = "social0">
 					<image src = "img/social/ico02.png" alt = "social0">
@@ -197,9 +289,8 @@
 					<a>&copy; 2017 Games Galaxy Corporation. All rights reserved. All trademarks are property of their respective owners in the US and other countries.</a>
 				</div>
 
-
-
 		</div>
+		
 		</footer>
 	</div>
 </html>
