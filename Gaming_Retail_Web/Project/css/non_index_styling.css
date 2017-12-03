@@ -8,6 +8,17 @@
 	
 	background-image: url(../img/background/backg_others0.png);
 	background-position: center;
+}
+
+#body_feat_games{
+	background-image: url(../img/background/backg_feat_games.png);
+	background-position: center;
+}
+
+#body_on_sale{
+	background-image: url(../img/background/backg_on_sale.png);
+	background-position: center;
+
 }	
 	
 
@@ -201,7 +212,7 @@
 	padding:7px;
 	border: 1.1px solid #ccc;
 	font-size: 10px;
-	width: 70%;
+	width: 80%;
 	cursor: pointer;
 }
 .platform_wrap{

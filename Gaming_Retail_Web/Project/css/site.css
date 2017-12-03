@@ -19,12 +19,10 @@
 
 .frame{
 	border-style:double;
-	/*background-color:#141645;*/
-	/*background: linear-gradient(#590967,#590967);*/
 	background: linear-gradient(to bottom right,#590967, #141645, #033F81);
 	padding:8px;
 	border-radius: 13px 13px 13px 13px;
-	border-color:#0067D8;
+	border-color:#000066;
 	margin-bottom:50px;
 }
 .container{
@@ -118,7 +116,8 @@ nav li ul li {
 	width: 100%;
 }
 nav li ul a:hover {
-	background: #bbb;
+	/*background: #bbb;*/
+	background: #590967;
 }
 /* Clearfix */
 .cf:after, .cf:before {
@@ -205,8 +204,9 @@ cursor: pointer;
 	margin-bottom: 7px;
 	padding: 1px;
 	font-size: .9em;
-	background-color:#17439A;
-	border: 1px solid white;
+	/*background-color:#17439A;*/
+	background-color:rgba(0,0,102, 1);
+	border: 1.4px solid purple;
 	float: left;
 	font-family:serif;
 	border-radius: 3px 3px 3px 3px;	
@@ -234,8 +234,8 @@ margin: 3px 0px 3px 10px;
 	margin-bottom: 7px;
 	padding: 1px;
 	font-size: .8em;
-	background-color:#17439A;
-	border: 1px solid white;
+	background-color:rgba(0,0,102, 1);
+	border: 1.4px solid purple;
 	float: right;
 	font-family: serif;
 	border-radius: 3px 3px 3px 3px;	
@@ -254,9 +254,8 @@ margin: 3px 0px 3px 10px;
 .feat_games{
 	background-image: url(../img/textures/texture0.jpg);
 	text-align:center;
-	padding:5px;
-	margin: 10px;
-	border: 1.5px solid blue;
+	margin-bottom:5px;
+	border: 1.5px solid rgba(64,64,64, 1);
 	border-radius: 3px 3px 0 0;
 	clear: both; /*Rejects/doesn't allow float elements to invade .feat_games division*/
 	/*position: relative;*/
@@ -265,15 +264,16 @@ margin: 3px 0px 3px 10px;
 	margin:10px;
 	heigh: 80%;
 	width: 80%;/*it's working somewhat good, I have to fix the rest of the games and the page above*/
-	max-width: 250px; 
-    max-height: 400px;
-	border: 2px solid orange;
+	max-width: 200px; 
+    max-height: 350px;
+	border: 2px solid rgba(102,0,102, 1);
 	
 	
 }
 .feat_games img:hover{
 	-webkit-transition-duration: 0.4s; /* Safari */
 	transition-duration: 0.4s;
+	border: 2px solid rgba(51,255,255, 1);
 	-webkit-filter: brightness(140%);
 }
 .game_container {
@@ -284,47 +284,48 @@ margin: 3px 0px 3px 10px;
 .best_sellers{
 	background-image: url(../img/textures/texture0.jpg);
 	text-align:center;
-	/*padding:5px;
-	margin: 10px;*/
-	border: 1.5px solid blue;
+	border: 1.5px solid rgba(64,64,64, 1);
 	background-color: red;
 	clear: both;
+	margin-bottom:5px;
 }
 .best_sellers img{
 	margin:10px;
 	heigh: 80%;
 	width: 80%;/*it's working somewhat good, I have to fix the rest of the games and the page above*/
-	max-width: 250px; 
-    max-height: 400px;
-	border: 2px solid orange;
+	max-width: 200px; 
+    max-height: 350px;
+	border: 2px solid rgba(102,0,102, 1);
 }
 .best_sellers img:hover{
 	-webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
+	border: 2px solid rgba(51,255,255, 1);
 	-webkit-filter: brightness(140%);
 }
 .on_sale{
 	background-image: url(../img/textures/texture0.jpg);
 	text-align:center;
-	padding:5px;
-	margin: 10px;
-	border: 1.5px solid blue;
+	/*padding:5px;*/
+	margin-bottom:5px;
+	border: 1.5px solid rgba(64,64,64, 1);
 	border-radius: 3px 3px 0 0;
-	background-color: blue;
+	/*background-color: blue;*/
 	clear: both;
 }
 .on_sale img{
 	margin:10px;
 	heigh: 80%;
 	width: 80%;/*it's working somewhat good, I have to fix the rest of the games and the page above*/
-	max-width: 250px; 
-    max-height: 400px;
+	max-width: 200px; 
+    max-height: 350px;
 	/*padding: 8px;*/
-	border: 2px solid orange;
+	border: 2px solid rgba(102,0,102, 1);
 }
 .on_sale img:hover{
 	-webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
+	border: 2px solid rgba(51,255,255, 1);
 	-webkit-filter: brightness(140%);
 }
 .mySlides {
@@ -396,5 +397,12 @@ display:none
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
+}
+#inner_frame{
+	/*padding:5px;*/
+	/*margin: 10px;*/
+	border: 1.5px double black;
+	background-color:rgba(32,32,32,0.91);
+	
 }
 
