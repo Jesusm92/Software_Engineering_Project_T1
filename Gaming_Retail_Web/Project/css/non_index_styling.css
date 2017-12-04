@@ -20,7 +20,18 @@
 	background-position: center;
 
 }	
+#body_adventure{
 	
+	background-image: url(../img/background/backg_adventure.jpg);
+	background-position: center; 
+	
+}
+#body_shooter{
+	
+	background-image: url(../img/background/backg_shooter.jpg);
+	background-position: center; 
+	
+}		
 
 
 .navbar_2{
