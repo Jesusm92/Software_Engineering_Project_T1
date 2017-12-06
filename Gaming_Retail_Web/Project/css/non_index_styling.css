@@ -1,46 +1,54 @@
 #body_racing{
 	
 	background-image: url(../img/background/backg_racing2.png);
-	background-position: center; 
+	background-position: center;
+	background-attachment: fixed;
 	
 }
 #body_others{
 	
 	background-image: url(../img/background/backg_others0.png);
 	background-position: center;
+	background-attachment: fixed;
 }
 
 #body_feat_games{
 	background-image: url(../img/background/backg_feat_games.png);
 	background-position: center;
+	background-attachment: fixed;
 }
 
 #body_on_sale{
 	background-image: url(../img/background/backg_on_sale.png);
 	background-position: center;
+	background-attachment: fixed;
 
 }	
 #body_adventure{
 	
 	background-image: url(../img/background/backg_adventure.jpg);
-	background-position: center; 
+	background-position: center;
+	background-attachment: fixed;
 	
 }
 #body_shooter{
 	
 	background-image: url(../img/background/backg_shooter.jpg);
-	background-position: center; 
+	background-position: center;
+	background-attachment: fixed;
 	
-}		
+}
+#body_rpg{
+
+	background-image: url(../img/background/backg_rpg.png);
+	background-position: center;
+	background-attachment: fixed;
+
+}	
 
 
 .navbar_2{
 	padding: 10px;
-	/*background: #1486D0; /* For browsers that do not support gradients */
-	/*background: -webkit-linear-gradient(left, red , yellow); /* For Safari 5.1 to 6.0 */
-	/*background: -o-linear-gradient(bottom right, red, yellow); /* For Opera 11.1 to 12.0 */
-	/*background: -moz-linear-gradient(bottom right, red, yellow); /* For Firefox 3.6 to 15 */
-	/*background: linear-gradient(to bottom right, blue , purple); /* Standard syntax */
 	background: linear-gradient(#0067D8,#033F81); /* Standard syntax */
 	margin-bottom:5%;
 }
@@ -248,6 +256,11 @@
 	float:right;
 	width:50%;
 	padding:2px;
+}
+
+#map_header{
+	
+	text-align:center;
 }
 
 
