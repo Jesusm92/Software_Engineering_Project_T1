@@ -1,52 +1,51 @@
 #body_racing{
-	
 	background-image: url(../img/background/backg_racing2.png);
 	background-position: center;
 	background-attachment: fixed;
-	
 }
 #body_others{
-	
 	background-image: url(../img/background/backg_others0.png);
 	background-position: center;
 	background-attachment: fixed;
 }
-
 #body_feat_games{
 	background-image: url(../img/background/backg_feat_games.png);
 	background-position: center;
 	background-attachment: fixed;
 }
-
 #body_on_sale{
 	background-image: url(../img/background/backg_on_sale.png);
 	background-position: center;
 	background-attachment: fixed;
-
 }	
-#body_adventure{
-	
+#body_adventure{	
 	background-image: url(../img/background/backg_adventure.jpg);
 	background-position: center;
 	background-attachment: fixed;
-	
 }
 #body_shooter{
-	
 	background-image: url(../img/background/backg_shooter.jpg);
 	background-position: center;
 	background-attachment: fixed;
-	
 }
 #body_rpg{
-
 	background-image: url(../img/background/backg_rpg.png);
 	background-position: center;
 	background-attachment: fixed;
-
+}
+#body_sports{
+	background-image: url(../img/background/backg_sports.jpg);
+	background-position: center;
+	background-attachment: fixed;
 }	
-
-
+#body_news{
+	background-color:#6E6F71;
+}
+#about_us_body{
+	background-image: url(../img/background/backg_us4.png);
+	background-position: center;
+	background-attachment: fixed;
+}	
 .navbar_2{
 	padding: 10px;
 	background: linear-gradient(#0067D8,#033F81); /* Standard syntax */
@@ -55,7 +54,8 @@
 .outer{
 	background-color:#171619;
 	border-style:double;
-	padding:4px;	
+	padding:4px;
+	font-size:.9em;
 }
 #video{
 	position:relative;
@@ -90,7 +90,7 @@
 	margin:10px;
 }
 .wrap_right{
-	width: 49%;
+	width: 46%;
 	background-color;
 	margin:5px;
 	/*border: 2px solid green;*/
@@ -136,7 +136,6 @@
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
 	background-color: #9C0EB7;
-	
 }
 .button_resume {
     background-color:#76108A; /* Purple */
@@ -194,7 +193,6 @@
 	background-color:#171619;
 	clear: both;
 }
-
 .on_sale_non_index img{
 	margin:10px;
 	heigh: 80%;
@@ -222,10 +220,11 @@
 #fieldset{
 	color:purple;
 	padding:2px;
-	margin:8px;	
+	margin:4px;
+	display:inline;
+	width:80%;
 }
 #platform_choice{
-	
 	background-color:#171619;
 	color:#FFFFFF;
 	padding:7px;
@@ -235,33 +234,27 @@
 	cursor: pointer;
 }
 .platform_wrap{
-	
 	border-style:double;
 	border-color:#323438;
 	margin:auto;
 	width:90%;
 	padding:3px;
 	background-color:#414244;
-	
 }
 #button_left{
-	
 	float:left;
 	width:50%;
 	padding:2px;
-	
 }
-
 #button_right{
 	float:right;
 	width:50%;
 	padding:2px;
 }
-
 #map_header{
-	
 	text-align:center;
 }
+
 
 
 
